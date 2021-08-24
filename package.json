@@ -1,0 +1,26 @@
+{
+  "name": "swagger_mock_api_prism",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "npx prism mock --host=0.0.0.0 --port=8080 ./swagger.yml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/masakaya/swagger_mock_api_prism.git"
+  },
+  "keywords": [
+    "prism"
+  ],
+  "author": "Masashi Kayahara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masakaya/swagger_mock_api_prism/issues"
+  },
+  "homepage": "https://github.com/masakaya/swagger_mock_api_prism#readme",
+  "devDependencies": {
+    "@stoplight/prism-cli": "^4.3.3"
+  }
+}
